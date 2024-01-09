@@ -1,0 +1,33 @@
+{
+  "name": "collaboritor",
+  "version": "1.0.0",
+  "description": "A shared editor to collaborate with like-minded coders - one keystroke at a time!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "vaccs": "nodemon ./index.js dev --ext mustache,js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doleance/collaboritor.git"
+  },
+  "author": "Ivett LATÁK <doleance@gmail.com> (https://github.com/doleance)",
+  "contributors": [
+    "Attila SZŐKE <szokeattila9801@gmail.com> (https://github.com/szattila98)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doleance/collaboritor/issues"
+  },
+  "homepage": "https://github.com/doleance/collaboritor#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mustache-express": "^1.3.2"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.0.2"
+  }
+}
