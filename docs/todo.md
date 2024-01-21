@@ -1,11 +1,12 @@
 # MVP
 
-- [ ] többen csatlakozhassanak az alkalmazáshoz
+- [ ] nincs hálóStekker pánikkezelés
+- [x] többen csatlakozhassanak az alkalmazáshoz
 - [ ] lista a résztvevőkről
 - [ ] lehessen már nevünk! (vagy: uuid név XD)
 - [ ] jelöljük, ki a SOROS épp
-- [ ] editor
-- [ ] az editorban látszik a teljes kódtartalom
+- [x] editor
+- [x] az editorban látszik a teljes kódtartalom
 - [ ] csak a SOROS írhat bele, és csak egy karaktert, azután jön a következő
 - [ ] 30 mp-ig gondolkodhat
 - [ ] egy ember csak egy billentyűt nyomhat le
@@ -14,6 +15,7 @@
 
 # Phase 1
 
+- [ ] legyenek megadva előre az enterek az összes sorra
 - [ ] JS kódot akarunk írni benne
 - [ ] futtatás (eval() VAGY: van jobb megoldás?) - gomb, amit bárki megnyomhat? - minden leütésre fusson le? - ha végigért az embereken, akkor fusson le? (mi történik, ha kész a kód, és még nem az uccsó embernél vagyunk?)
 - [ ] törlés gomb; csak a hostoknak - honnan tudjuk, ki a host? legyen név alapján
@@ -30,3 +32,4 @@
 # Not so nice to have
 
 - [ ] troll-detektor: ha látjuk, hogy valaki direkt trollkodik, kiírjuk, hogy TROLL Among Us! (pl. csak entereket törölget, vagy... nem t'om)
+- [ ] prettier futtatás

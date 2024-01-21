@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <script src="./scripts/main.js"></script>
     <title>Collaboritor</title>
 </head>
 <body>
     <h1>Hello, {{name}}!!!</h1>
+    <textarea id="code-editor-area" class="code-editor-area" rows="20" cols="100"></textarea>
+    <button id="code-run-button" type="button" onclick="onRunCode()">Készen vagyunk, fuss!</button>
 </body>
 </html>
