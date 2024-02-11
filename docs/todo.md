@@ -28,6 +28,7 @@
 - [ ] randomizálva van, hogy ki a következő - vagy inkább: tömb shuffle, pop() míg el nem fogy, aztán újra
 - [ ] legyen feladatbank, és legyenek tesztek is hozzá, amik lefutnak ekkor?
 - [ ] szobák?
+- [ ] dark mode night mode
 
 # Not so nice to have
 

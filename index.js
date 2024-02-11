@@ -31,7 +31,7 @@ app.ws('/', function(ws, req) {
 
 // Endpoints
 app.get('/', (req, res) => {
-    res.render('index.mustache', { name: 'Gnu' })
+    res.render('index.mustache')
 });
 
 //
